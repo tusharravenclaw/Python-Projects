@@ -1,0 +1,12 @@
+import time
+from plyer import notification
+
+if __name__ == '__main__':
+  while True:
+    notification.notify(
+    title = "Please Drink Water NOW!!!!",
+    message = 'But Why?????\nBecause It\'s Good For Your Health!!!!!',
+    app_icon = 'D:\icon.ico',
+    timeout = 8
+    )
+    time.sleep(60*60)
